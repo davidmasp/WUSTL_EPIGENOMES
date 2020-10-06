@@ -17,17 +17,17 @@ with open("download_index.csv") as index:
         folder_dest.append(outpath)
 
 
-config = {folder_dest[i]: url_list[i] for i in range(len(url_list))} 
+config = {url_list[i]: folder_dest[i] for i in range(len(url_list))} 
 
 rule all:
     input:
-        expand("{dest_folder}",zip, dest_folder = folder_dest )
+        "dnamethylation/WGBS/FractionalMethylation_bigwig/E098_WGBS_FractionalMethylation.bigwig"
 
 rule download:
     input:
-        url = lambda wildcards: config[wildcards.dest_folder]
+        lambda wildcards: config[wildcards.dest_folder]
     output:
         "{dest_folder}"
     shell:
-        "wget {input.url} -O {wildcards.dest_folder}"
+        "wget {input} -O {wildcards.dest_folder}"
 
