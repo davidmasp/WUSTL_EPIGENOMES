@@ -6,6 +6,7 @@ They contain data from Roadmap Epigenome project.
 
 https://egg2.wustl.edu/roadmap/web_portal/processed_data.html#MethylData
 
+The cell lines that correspond to each code are linked [here](https://egg2.wustl.edu/roadmap/data/byDataType/dnamethylation/mCRF/EG.mnemonics.name.xls)
 
 ## Usage
 
@@ -16,12 +17,9 @@ from parallelization. The cpu efficiency will be low anyway I think.
 
 To launch from slurm:
 
-```
+```bash
 srun --mem=3Gb -c 15 Rscript download.R 15
 ```
-
-
-
 
 ## Data description
 
@@ -30,4 +28,3 @@ They are grouped in the following categories:
 ## Genome-wide signal coverage tracks
 
 This includes DHS and Chip-Seq and they are given either as poison p-value or as fold-change. The most case use is the fold-change over input.
-
