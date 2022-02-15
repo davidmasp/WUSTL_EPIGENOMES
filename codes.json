@@ -1,0 +1,53 @@
+[
+  {
+    "local_path": "data/dnamethylation/WGBS",
+    "base_url": "https://egg2.wustl.edu/roadmap/data/byDataType/dnamethylation/WGBS/FractionalMethylation_bigwig/",
+    "base_file": "{}_WGBS_FractionalMethylation.bigwig",
+    "codes": [
+      "E058",
+      "E054",
+      "E053",
+      "E071",
+      "E070",
+      "E100",
+      "E095",
+      "E109",
+      "E079",
+      "E094",
+      "E097",
+      "E066",
+      "E098",
+      "E096",
+      "E113",
+      "E106",
+      "E112",
+      "E050",
+      "E008",
+      "E016",
+      "E024",
+      "E021",
+      "E022",
+      "E007",
+      "E003",
+      "E017"
+    ]
+  },
+  {
+    "local_path": "data/dnaseseq/genomewidesignal/foldchange_bigwig",
+    "base_url": "https://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/foldChange/",
+    "base_file": "{}-DNase.fc.signal.bigwig",
+    "codes": [
+      "E017",
+      "E114",
+      "E117",
+      "E118",
+      "E119",
+      "E127",
+      "E125",
+      "E122",
+      "E034",
+      "E116",
+      "E123"
+    ]
+  }
+]

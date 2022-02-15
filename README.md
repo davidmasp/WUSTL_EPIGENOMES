@@ -6,7 +6,7 @@ They contain data from Roadmap Epigenome project.
 
 https://egg2.wustl.edu/roadmap/web_portal/processed_data.html#MethylData
 
-The cell lines that correspond to each code are linked [here](https://egg2.wustl.edu/roadmap/data/byDataType/dnamethylation/mCRF/EG.mnemonics.name.xls)
+The cell lines that correspond to each code are linked [here](https://docs.google.com/spreadsheets/d/1yikGx4MsO9Ei36b64yOy9Vb6oPC5IBGlFbYEt-N6gOM/edit#gid=15)
 
 ## Usage
 
